@@ -48,3 +48,40 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+.button-container {
+	display:flex;
+	margin-top:4rem;
+	width:100%;
+	justify-content:center;
+
+	& > *:not(:last-child) {
+		margin-right: .5rem;
+	}
+}
+.button-paginate {
+	font-size: 1.6rem;
+	padding:1rem;
+	background-color:skyblue;
+	color:white;
+	border:1px solid blue;
+	cursor:pointer;
+	transition:all .5s ease;
+	&:hover {
+		background-color: #55f;
+	}
+}
+.button-side {
+	font-size: 1.6rem;
+	padding:1rem;
+	background-color: #0e76a8;
+	border:1px solid #094a69;
+	color:white;
+	cursor:pointer;
+	transition: all .5s ease;
+	&:hover {
+		background-color: #094a69;
+	}
+}
+
+
+
