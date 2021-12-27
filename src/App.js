@@ -1,10 +1,17 @@
-import "./styles.scss"
+
+import Card from "./components/Card";
 
 function App() {
   return (
-    <>
-      <h1>This is the pagination demo</h1>
-    </>
+    <div className="container">
+      <h1 className="heading__primary">This is the pagination demo</h1>
+      <div className="layout">
+         <Card/>
+         <Card/>
+         <Card/>
+         <Card/>
+      </div>
+    </div>
   );
 }
 
