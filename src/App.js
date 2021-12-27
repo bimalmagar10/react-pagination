@@ -54,7 +54,7 @@ function App() {
               return (
                 <button
                   key={index}
-                  className="button-paginate"
+                  className={`button-paginate ${index === page ? 'active':null}`}
                   onClick={() => handlePage(index)}
                 >
                   {index + 1}
